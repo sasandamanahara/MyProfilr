@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link } from "react-scroll";
+
 import Typed from "react-typed";
 import AOS from 'aos';
+import CV from '../CV_Sasanda_Manahara.pdf';
 
 AOS.init({
   offset: 200,
@@ -12,6 +13,10 @@ AOS.init({
 });
 
 const hero = () => {
+    const downloadResume = () => {
+        // Use the imported file as the source URL
+        window.open(CV, '_blank');
+    };
     return(
         <div className="v-center">
             <div className="container">
@@ -35,7 +40,7 @@ const hero = () => {
                             data-aos-once="true"
                             >
                             <Typed
-                                strings={[ "a Programmer." , "a Designer.","a Developer"]}
+                                strings={[ "a Programmer." , "a Designer.","a Developer."]}
                                 typeSpeed={60}
                                 backSpeed={50}
                                 loop
@@ -52,10 +57,8 @@ const hero = () => {
                           This portfolio offers a glimpse into my journey, showcasing projects and insights as I navigate the world of technology. 
                           Join me as I strive to make an impact through innovation.
                         </p>
-                        <button className="btn-main mt-3">
-                            <Link className="nav-link transition" spy to="resume">
-                                My Resume
-                            </Link>
+                        <button className="btn-main mt-3" onClick={downloadResume} style={{ cursor: 'pointer' }}>
+                            My Resume
                         </button>
                     </div>
 

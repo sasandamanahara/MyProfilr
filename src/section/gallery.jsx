@@ -61,28 +61,17 @@ const Gallery= function() {
                 </div>
                  <Masonry
                     className={"row my-gallery-class"} elementType={"div"}>
-                    <div className="col-lg-4 image-element-class de_modal de_modal" onClick={handleBtnClick}
-                        data-aos="fade-up"
-                        data-aos-once="true"
-                        >
-                        <div className="card-image-1">
-                            <div className="d-text">
-                                <h3>Archi Interior Design</h3>
-                                <h5 className="d-tag">website</h5>
-                            </div>
-                            <img src="./img/gallery/1.jpg" alt="gallery"/>
-                        </div>
-                    </div>
+                    
                     <div className="col-lg-4 image-element-class de_modal" onClick={handleBtnClick1}
                         data-aos="fade-up"
                         data-aos-once="true"
                         > 
                         <div className="card-image-1">
                             <div className="d-text">
-                                <h3>Self Hosted Video</h3>
-                                <h5 className="d-tag">website</h5>
+                                <h3>Medi Connect</h3>
+                                <h5 className="d-tag">App</h5>
                             </div>
-                            <img src="./img/gallery/2.jpg" alt="gallery"/>
+                            <img src="./img/gallery/mediconnectlogo.png" alt="gallery"/>
                         </div>
                     </div>
                     <div className="col-lg-4 image-element-class de_modal" onClick={handleBtnClick2}
@@ -91,92 +80,18 @@ const Gallery= function() {
                         >
                         <div className="card-image-1">
                             <div className="d-text">
-                                <h3>Justica Lawyer</h3>
-                                <h5 className="d-tag">website</h5>
+                                <h3>Next Step Careers</h3>
+                                <h5 className="d-tag">CV Matching website</h5>
                             </div>
                             <img src="./img/gallery/3.jpg" alt="gallery"/>
                         </div>
                     </div>
-                    <div className="col-lg-4 image-element-class de_modal" onClick={handleBtnClick}
-                        data-aos="fade-up"
-                        data-aos-once="true"
-                        >
-                        <div className="card-image-1">
-                            <div className="d-text">
-                                <h3>Bluetec App</h3>
-                                <h5 className="d-tag">website</h5>
-                            </div>
-                            <img src="./img/gallery/4.jpg" alt="gallery"/>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 image-element-class de_modal" onClick={handleBtnClick1}
-                        data-aos="fade-up"
-                        data-aos-once="true"
-                        >
-                        <div className="card-image-1">
-                            <div className="d-text">
-                                <h3>Uhost Hosting</h3>
-                                <h5 className="d-tag">website</h5>
-                            </div>
-                            <img src="./img/gallery/5.jpg" alt="gallery"/>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 image-element-class de_modal" onClick={handleBtnClick2}
-                        data-aos="fade-up"
-                        data-aos-once="true"
-                        >
-                        <div className="card-image-1">
-                            <div className="d-text">
-                                <h3>Bolo Creative</h3>
-                                <h5 className="d-tag">website</h5>
-                            </div>
-                            <img src="./img/gallery/6.jpg" alt="gallery"/>
-                        </div>
-                    </div>
+                   
+                   
+                   
                   </Masonry>
 
-                  {/* lightbox1 */}
-                  {lighbx && ( 
-                  <div className="LightboxGal">
-                    <div className="closeGal">
-                        <button className="button-close" onClick={handleBtnClickclose}></button>
-                    </div>
-                    <div className="v-center w-100">
-                      <div className="mainLightbox container">
-                        <div className="row g-5">
-                            <div className="col-lg-8">
-                                <img src="./img/gallery-big/1.jpg" alt="" className="img-fluid"/>
-                            </div>
-
-                            <div className="col-lg-4 de_project-info">
-                                <h3>Interior Design Website</h3>
-                                <p>Duis ad adipisicing id id in duis nisi qui veniam esse voluptate cillum pariatur cupidatat ut dolore amet aliquip cillum ad minim cillum nulla consectetur dolor culpa deserunt mollit dolor ea pariatur laboris sed tempor laboris quis commodo. Ut duis cupidatat consectetur cillum veniam eu quis minim irure fugiat ut consequat do veniam duis dolor quis cupidatat deserunt ut qui minim id dolor nisi sed non ut proident enim culpa dolor elit dolor aliquip dolore enim excepteur.</p>
-                               
-                                <div className="de_project-details">
-                                    <div className="d-field">
-                                        <i className="fa fa-user-o"></i>Client: <span>Envato</span>
-                                    </div>
-                                    <div className="d-field">
-                                        <i className="fa fa-file-text-o"></i>Type: <span>Branding</span>
-                                    </div>
-                                    <div className="d-field">
-                                        <i className="fa fa-calendar-o"></i>Year: <span>2020</span>
-                                    </div>
-                                    <div className="d-field">
-                                        <i className="fa fa-external-link"></i>Preview: <span><a href="https://www.envato.com" target="_blank" rel="noreferrer">www.envato.com</a></span>
-                                    </div>
-                                </div>
-                                <div className="spacer-30"></div>
-                                <blockquote>
-                                    "Very well done theme. Versatile, extremely well coded, and gorgeous. That's a great combo. Highly recommended."
-                                    <span>John Archi</span>
-                                </blockquote>
-                            </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  )}
+                 
 
                   {/* lightbox2 */}
                   {lighbx1 && ( 
@@ -190,49 +105,38 @@ const Gallery= function() {
                             <div className="col-lg-8">
                                 <div className="row g-4">
                                     <div className="col-lg-12 item">
-                                        <img src="./img/single-gallery/pf-2-1.jpg" alt="galleryimage" className="img-fluid"/>
+                                        <img src="./img/gallery-big/1.jpg" className="img-fluid"/>
                                     </div>
-                                    <div className="col-lg-6 item">
-                                        <img src="./img/single-gallery/pf-2-2.jpg" alt="galleryimage" className="img-fluid"/>
-                                    </div>
-                                    <div className="col-lg-6 item">
-                                        <img src="./img/single-gallery/pf-2-3.jpg" alt="galleryimage" className="img-fluid"/>
-                                    </div>
+                                   
                                     <div className="col-lg-12 item">
-                                        <img src="./img/single-gallery/pf-2-4.jpg" alt="galleryimage" className="img-fluid"/>
+                                    <video className="pop" controls autoPlay loop>
+                                <source src="./video/MediConnect.mp4" type="video/mp4"/>
+                                  
+                                </video>
                                     </div>
-                                    <div className="col-lg-6 item">
-                                        <img src="./img/single-gallery/pf-2-5.jpg" alt="galleryimage" className="img-fluid"/>
-                                    </div>
-                                    <div className="col-lg-6 item">
-                                        <img src="./img/single-gallery/pf-2-6.jpg" alt="galleryimage" className="img-fluid"/>
-                                    </div>
+                                    
+                                   
                                 </div>
                             </div>
 
                             <div className="col-lg-4 de_project-info">
-                                <h3>Interior Design Website</h3>
-                                <p>Duis ad adipisicing id id in duis nisi qui veniam esse voluptate cillum pariatur cupidatat ut dolore amet aliquip cillum ad minim cillum nulla consectetur dolor culpa deserunt mollit dolor ea pariatur laboris sed tempor laboris quis commodo. Ut duis cupidatat consectetur cillum veniam eu quis minim irure fugiat ut consequat do veniam duis dolor quis cupidatat deserunt ut qui minim id dolor nisi sed non ut proident enim culpa dolor elit dolor aliquip dolore enim excepteur.</p>
-                               
+                            <h3>Medi Connect</h3>
+                                <p>MediConnect mobile application is designed to simplify the process of finding 
+essential medicines. Acting as a bridge between users and nearby pharmacies, our platform 
+connects individuals in need of specialized medicines with pharmacies capable of fulfilling those 
+needs.</p>
                                 <div className="de_project-details">
                                     <div className="d-field">
-                                        <i className="fa fa-user-o"></i>Client: <span>Envato</span>
+                                        <i className="fa fa-user-o"></i>Framework: <span>Flutter</span>
                                     </div>
+                                    
                                     <div className="d-field">
-                                        <i className="fa fa-file-text-o"></i>Type: <span>Branding</span>
+                                        <i className="fa fa-calendar-o"></i>Year: <span>2023</span>
                                     </div>
-                                    <div className="d-field">
-                                        <i className="fa fa-calendar-o"></i>Year: <span>2020</span>
-                                    </div>
-                                    <div className="d-field">
-                                        <i className="fa fa-external-link"></i>Preview: <span><a href="https://www.envato.com" target="_blank" rel="noreferrer">www.envato.com</a></span>
-                                    </div>
+                                   
                                 </div>
                                 <div className="spacer-30"></div>
-                                <blockquote>
-                                    "Very well done theme. Versatile, extremely well coded, and gorgeous. That's a great combo. Highly recommended."
-                                    <span>John Archi</span>
-                                </blockquote>
+                                
                             </div>
                         </div>
                       </div>
@@ -250,35 +154,51 @@ const Gallery= function() {
                       <div className="mainLightbox container">
                         <div className="row g-5">
                             <div className="col-lg-8">
-                                <video className="pop" controls autoPlay loop>
-                                  <source src="./video/local-video-2.mp4" type="video/mp4"/>
-                                  Your browser does not support the video tag.
-                                </video>
+                            <div className="row g-4">
+                                    <div className="col-lg-12 item">
+                                        <img src="./img/gallery-big/8.jpg" alt="galleryimage" className="img-fluid"/>
+                                    </div>
+                                   
+                                    <div className="col-lg-6 item">
+                                        <img src="./img/gallery-big/2.jpg" alt="galleryimage" className="img-fluid"/>
+                                    </div>
+                                    <div className="col-lg-6 item">
+                                        <img src="./img/gallery-big/3.jpg" alt="galleryimage" className="img-fluid"/>
+                                    </div>
+                                    <div className="col-lg-12 item">
+                                        <img src="./img/gallery-big/5.jpg"alt="galleryimage" className="img-fluid"/>
+                                    </div>
+                                    <div className="col-lg-6 item">
+                                        <img src="./img/gallery-big/7.jpg"alt="galleryimage" className="img-fluid"/>
+                                    </div>
+                                    <div className="col-lg-6 item">
+                                        <img src="./img/gallery-big/6.jpg"alt="galleryimage" className="img-fluid"/>
+                                    </div>
+                                    
+                                    
+                                   
+                                </div>
                             </div>
 
                             <div className="col-lg-4 de_project-info">
-                                <h3>Self Hosted Video</h3>
-                                <p>Duis ad adipisicing id id in duis nisi qui veniam esse voluptate cillum pariatur cupidatat ut dolore amet aliquip cillum ad minim cillum nulla consectetur dolor culpa deserunt mollit dolor ea pariatur laboris sed tempor laboris quis commodo. Ut duis cupidatat consectetur cillum veniam eu quis minim irure fugiat ut consequat do veniam duis dolor quis cupidatat deserunt ut qui minim id dolor nisi sed non ut proident enim culpa dolor elit dolor aliquip dolore enim excepteur.</p>
-                               
-                                <div className="de_project-details">
+                                <h3>CV-Matching Platform</h3>
+                                <p> I am currently working on a CV-matching website as part of an ongoing project. This platform allows users to
+ create profiles and update their CVs. This enables employers to browse and hire them based on their
+ qualifications and skills. </p>
+ <div className="de_project-details">
                                     <div className="d-field">
-                                        <i className="fa fa-user-o"></i>Client: <span>Envato</span>
+                                        <i className="fa fa-user-o"></i>Client: <span>NS Business & Consultancy Services</span>
                                     </div>
                                     <div className="d-field">
-                                        <i className="fa fa-file-text-o"></i>Type: <span>Branding</span>
+                                        <i className="fa fa-file-text-o"></i>Tech Stack: <span>MERN Stack</span>
                                     </div>
                                     <div className="d-field">
-                                        <i className="fa fa-calendar-o"></i>Year: <span>2020</span>
+                                        <i className="fa fa-calendar-o"></i>Year: <span>2023 - Present</span>
                                     </div>
-                                    <div className="d-field">
-                                        <i className="fa fa-external-link"></i>Preview: <span><a href="https://www.envato.com" target="_blank" rel="noreferrer">www.envato.com</a></span>
-                                    </div>
+                                    
                                 </div>
                                 <div className="spacer-30"></div>
-                                <blockquote>
-                                    "Very well done theme. Versatile, extremely well coded, and gorgeous. That's a great combo. Highly recommended."
-                                    <span>John Archi</span>
-                                </blockquote>
+                                
                             </div>
                         </div>
                       </div>

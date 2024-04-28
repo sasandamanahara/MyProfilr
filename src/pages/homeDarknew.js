@@ -60,28 +60,35 @@ function home() {
       {/* Gallery */}
       <section id="resume" className="pb-0">
         <Resume/>
-        <Counter/>
+      {/*  <Counter/> */}
       </section>
 
-      {/* Gallery */}
+      {/* Gallery 
       <section id="blog" className="pb-0">
         <Blog/>
       </section>
+      */}
+      
 
       {/* contact */}
       <section id="contact" className="py-0">
-        <Contact/>
+      {/*  <Contact/> */}
         <Footer/>
       </section>
+      
 
       
 
 
       <div className="float-text">
           <div className="de_social-icons">
-              <span className="buton"><i className="fa fa-facebook fa-lg"></i></span>
-              <span className="buton"><i className="fa fa-twitter fa-lg"></i></span>
-              <span className="buton"><i className="fa fa-instagram fa-lg"></i></span>
+          <a href="https://www.facebook.com/sasanda.manahara" target="_blank" rel="noreferrer" class="buton"><i class="fa fa-facebook fa-lg"></i></a>
+
+
+          <a href="https://www.linkedin.com/in/sasanda-manahara-324b92276" target="_blank" rel="noreferrer" class="buton"><i class="fa fa-linkedin fa-lg"></i></a>
+
+          <a href="https://www.instagram.com/sasanda_manahara" target="_blank" rel="noreferrer" class="buton"><i class="fa fa-instagram fa-lg"></i></a>
+
           </div>
           <span>Follow Me</span>
       </div>

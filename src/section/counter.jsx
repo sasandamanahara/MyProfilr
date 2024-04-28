@@ -22,13 +22,7 @@ const Mblockquote = () => {
                               data-aos-easing="ease"
                               data-aos-once="true"
                                   >
-                                    <CountUp
-                                      start={0}
-                                      end={8240}
-                                      duration={10}
-                                      useEasing={true}
-                                      separator=","
-                                    />
+                                    <i className="d-big icon_quotations"></i>
                                 </h3>
                                 <span>Hours of Works</span>
                             </div>

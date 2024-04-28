@@ -7,17 +7,17 @@ const footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">
-                        <a href="https://www.envato.com" target="_blank" rel="noreferrer">
-                            <span className="copy">&copy; Copyright {currentYear} - Kyros by Designesia</span>
+                        <a href="" target="_blank" rel="noreferrer">
+                            <span className="copy">&copy; Copyright {currentYear} - Sasanda Manahara</span>
                         </a>
                     </div>
                     <div className="col-md-6">
                         <div className="social-icons">
-                            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i className="fa fa-facebook"></i></a>
-                            <a href="https://twitter.com" target="_blank" rel="noreferrer"><i className="fa fa-twitter"></i></a>
-                            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin"></i></a>
-                            <a href="https://pinterest.com/" target="_blank" rel="noreferrer"><i className="fa fa-pinterest"></i></a>
-                            <a href="https://www.envato.com" target="_blank" rel="noreferrer"><i className="fa fa-rss"></i></a>
+                            <a href="https://www.facebook.com/sasanda.manahara" target="_blank" rel="noreferrer"><i className="fa fa-facebook"></i></a>
+                            
+                            <a href="https://www.linkedin.com/in/sasanda-manahara-324b92276" target="_blank" rel="noreferrer"><i className="fa fa-linkedin"></i></a>
+                            <a href="https://github.com/sasandamanahara" target="_blank" rel="noreferrer"><i className="fa fa-github"></i></a>
+                            <a href="https://www.instagram.com/sasanda_manahara" target="_blank" rel="noreferrer"><i className="fa fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>

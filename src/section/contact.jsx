@@ -95,7 +95,7 @@ const contact = () => {
                                     >
                                     <div className="wm-1"></div>
                                     <h6>Email Me</h6>
-                                    <p>contact@kyrosnoriaki.com</p>
+                                    <p>sasandamanahara12@gmail.com</p>
                                 </div>
                                 <div className="col-md-4"
                                     data-aos="fade-up"
@@ -106,7 +106,7 @@ const contact = () => {
                                     >
                                     <div className="wm-1"></div>
                                     <h6>Call Me</h6>
-                                    <p>+1 700 333 92 96</p>
+                                    <p>+94 70 570 9983</p>
                                 </div>
                                 <div className="col-md-4"
                                     data-aos="fade-up"
@@ -117,7 +117,7 @@ const contact = () => {
                                     >
                                     <div className="wm-1"></div>
                                     <h6>Address</h6>
-                                    <p>Collins Street West, Louisiana, Bayerfurt, USA</p>
+                                    <p>393/7, Mabima, Heiyanthuduwa</p>
                                 </div>
                             </div>
                         </div>
